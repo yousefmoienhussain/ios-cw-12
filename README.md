@@ -45,7 +45,6 @@ func name (parameters) -> return type {
 
 
 <p dir="rtl">
-
 1. قم بعمل دالة بدون مدخلات ومخرجات تقوم فقط بطباعة userName محدد، مع استدعائها.
 
 <p dir="rtl">
@@ -70,10 +69,10 @@ func grade(first:Int,second:Int,final:Int) -> String {
     else if ( grade >= 80 && grade <= 89 ){
         return "B"
     }
-else if ( grade >= 70 && grade <= 79 ){
+    else if ( grade >= 70 && grade <= 79 ){
         return "C"
     }
-else if ( grade >= 60 && grade <= 69 ){
+    else if ( grade >= 60 && grade <= 69 ){
         return "D"
     }
     else{
